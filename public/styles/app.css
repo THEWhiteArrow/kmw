@@ -1,10 +1,15 @@
 header {
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../assets/header_pic.png"); */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../assets/min/header_pic.png"); */
     background: rgb(67, 67, 67);
-    background: radial-gradient(circle, rgba(22, 22, 22, 0.65) 45%, rgba(255, 255, 255, 0) 95%, rgba(255, 255, 255, 0) 100%), url("../assets/header_pic.png");
+    background: radial-gradient(circle, rgba(22, 22, 22, 0.65) 45%, rgba(255, 255, 255, 0) 95%, rgba(255, 255, 255, 0) 100%), url("../assets/min/header_pic-min.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+#logoimg {
+    max-width: 150px;
+    transform: translate3d(0, -8px, 0);
 }
 
 img {
